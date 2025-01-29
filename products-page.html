@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>The Polymer Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="" class="nav-link">Men's Outerwear</a
+        ><a href="" class="nav-link">Ladies Outerwear</a
+        ><a href="" class="nav-link">Men's T-Shirts</a
+        ><a href="" class="nav-link">Ladies T-Shirts</a>
+      </div>
+
+      <div class="header">
+        <div class="menu-icon" onclick="openNav()">
+          <svg
+            viewBox="0 0 24 24"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+            style="
+              pointer-events: none;
+              display: block;
+              width: 100%;
+              height: 100%;
+            "
+          >
+            <g>
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+            </g>
+          </svg>
+        </div>
+
+        <p class="title">SHOP</p>
+        <div class="cart-icon-container">
+          <svg
+            viewBox="0 0 24 24"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+            style="
+              pointer-events: none;
+              display: block;
+              width: 100%;
+              height: 100%;
+            "
+          >
+            <g>
+              <path
+                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <nav class="nav-bar">
+        <a href="" class="nav-link">Men's Outerwear</a
+        ><a href="" class="nav-link">Ladies Outerwear</a
+        ><a href="" class="nav-link">Men's T-Shirts</a
+        ><a href="" class="nav-link">Ladies T-Shirts</a>
+      </nav>
+      <img
+        class="products banner-img"
+        src="https://shop.polymer-project.org/esm-bundled/images/mens_outerwear.jpg"
+        alt=""
+      />
+      <div class="main-container">
+        <h2 class="section-heading">Men's Outerwear</h2>
+        <p class="text-light">(16 items)</p>
+        <div class="products-container">
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-15068B.jpg"
+              alt="Men's Tech Shell Full-Zip"
+            />
+            <div class="product-desc">
+              <h3>Men's Tech Shell Full-Zip</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14154B.jpg"
+              alt="Anvil L/S Crew Neck - Grey"
+            />
+            <div class="product-desc">
+              <h3>Anvil L/S Crew Neck - Grey</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14157B.jpg"
+              alt="Green Flex Fleece Zip Hoodie"
+            />
+            <div class="product-desc">
+              <h3>Green Flex Fleece Zip Hoodie</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-15041B.jpg"
+              alt="Android Nylon Packable Jacket"
+            />
+            <div class="product-desc">
+              <h3>Android Nylon Packable Jacket</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14133B.jpg"
+              alt="YouTube Ultimate Hooded Sweatshirt"
+            />
+            <div class="product-desc">
+              <h3>YouTube Ultimate Hooded Sweatshirt</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14160B.jpg"
+              alt="Grey Heather Fleece Zip Hoodie"
+            />
+            <div class="product-desc">
+              <h3>Grey Heather Fleece Zip Hoodie</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14153B.jpg"
+              alt="Vastrm Hoodie"
+            />
+            <div class="product-desc">
+              <h3>Vastrm Hoodie</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14158B.jpg"
+              alt="Recycled Plastic Bottle Hoodie - Green"
+            />
+            <div class="product-desc">
+              <h3>Recycled Plastic Bottle Hoodie - Green</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14152B.jpg"
+              alt="Rowan Pullover Hood"
+            />
+            <div class="product-desc">
+              <h3>Rowan Pullover Hood</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14155B.jpg"
+              alt="Men's Voyage Fleece Jacket"
+            />
+            <div class="product-desc">
+              <h3>Men's Voyage Fleece Jacket</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14159B.jpg"
+              alt="Eco-Jersey Chrome Zip Up Hoodie"
+            />
+            <div class="product-desc">
+              <h3>Eco-Jersey Chrome Zip Up Hoodie</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14146B.jpg"
+              alt="Android Colorblock Hooded Pullover"
+            />
+            <div class="product-desc">
+              <h3>Android Colorblock Hooded Pullover</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14216B.jpg"
+              alt="Tri-blend Full-Zip Hoodie"
+            />
+            <div class="product-desc">
+              <h3>Tri-blend Full-Zip Hoodie</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14215B.jpg"
+              alt="Fleece Full-Zip Hoodie"
+            />
+            <div class="product-desc">
+              <h3>Fleece Full-Zip Hoodie</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14217B.jpg"
+              alt="Jacquard-Knit Full-Zip Fleece"
+            />
+            <div class="product-desc">
+              <h3>Jacquard-Knit Full-Zip Fleece</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-15103B.jpg"
+              alt="YouTube Unisex Flex Fleece Zip Hoodie"
+            />
+            <div class="product-desc">
+              <h3>YouTube Unisex Flex Fleece Zip Hoodie</h3>
+              <p class="text-light">$50.20</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

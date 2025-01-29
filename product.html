@@ -71,35 +71,40 @@
         ><a href="" class="nav-link">Ladies T-Shirts</a>
       </nav>
     </div>
-    <div class="product-contianer">
-      <div>
+    <div class="product-container">
+      <div class="img-container">
         <img
           src="https://shop.polymer-project.org/esm-bundled/data/images/10-15068A.jpg"
           alt="sweat shirt"
         />
       </div>
-      <div>
+      <div class="prod-detail">
         <div>
-          <h1>Men's Tech Shell Full-Zip</h1>
-          <p>$50.20</p>
+          <h1 class="prod-title">Men's Tech Shell Full-Zip</h1>
+          <p class="text-light prod-price">$50.20</p>
         </div>
-        <div>
+        <div class="options">
           <hr />
-          <label for="size"></label>
-          <select name="size" id="">
-            <option value="">M</option>
-            <option value="">S</option>
-            <option value="">L</option>
-          </select>
+          <div class="shop-select">
+            <label for="size" class="text-light">Size</label>
+            <select name="size" id="size">
+              <option value="">M</option>
+              <option value="">S</option>
+              <option value="">L</option>
+            </select>
+          </div>
+
           <hr />
-          <label for="qty"></label>
-          <select name="qty" id="">
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-          </select>
+          <div class="shop-select">
+            <label for="qty" class="text-light">Quantity</label>
+            <select name="qty" id="qty">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+            </select>
+          </div>
         </div>
-        <div>
+        <div class="prod-desc">
           <h3>Description</h3>
           <p>
             A versatile full-zip that you can wear all day long and even to the
@@ -120,7 +125,7 @@
               </li>
             </ul>
           </div>
-          <a class="link-btn">ADD TO CART</a>
+          <a class="link-btn fix-btn">ADD TO CART</a>
         </div>
       </div>
     </div>

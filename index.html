@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Document</title>
+    <title>The Polymer Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,8 +15,18 @@
   </head>
   <body>
     <div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="" class="nav-link">Men's Outerwear</a
+        ><a href="" class="nav-link">Ladies Outerwear</a
+        ><a href="" class="nav-link">Men's T-Shirts</a
+        ><a href="" class="nav-link">Ladies T-Shirts</a>
+      </div>
+
       <div class="header">
-        <div class="menu-icon">
+        <div class="menu-icon" onclick="openNav()">
           <svg
             viewBox="0 0 24 24"
             preserveAspectRatio="xMidYMid meet"
@@ -96,5 +106,6 @@
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -34,6 +34,14 @@ h2 {
   height: 64px;
   padding: 0 24px;
 }
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
 
 .nav-link {
   display: inline-block;
@@ -128,6 +136,19 @@ h2 {
   justify-content: center;
   text-decoration: none;
   color: black;
+}
+
+.foot-span {
+  font-size: 0.8rem;
+}
+footer {
+  position: relative;
+}
+.demo-btn {
+  padding: 0.9rem 1.3rem;
+  background-color: black;
+  color: white;
+  font-size: 0.9rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -287,7 +308,10 @@ ul {
   border: 0;
   background-color: rgb(23, 44, 80);
   color: #fff;
-  font-size: 15px;
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 1;
 }
 @media screen and (min-width: 768px) {
   .product-container {
@@ -336,6 +360,7 @@ ul {
   flex-direction: column;
   align-items: center;
   width: 80%;
+  height: 100vh;
   margin: auto;
 }
 .cart-container {

@@ -1,2 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>The Polymer Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="/products-page.html" class="nav-link">Men's Outerwear</a
+        ><a href="" class="nav-link">Ladies Outerwear</a
+        ><a href="" class="nav-link">Men's T-Shirts</a
+        ><a href="" class="nav-link">Ladies T-Shirts</a>
+      </div>
 
+      <div class="header">
+        <div class="menu-icon" onclick="openNav()">
+          <svg
+            viewBox="0 0 24 24"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+            style="
+              pointer-events: none;
+              display: block;
+              width: 100%;
+              height: 100%;
+            "
+          >
+            <g>
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+            </g>
+          </svg>
+        </div>
 
+        <p class="title"><a href="index.html" class="neutral">SHOP</a></p>
+        <div class="cart-icon-container">
+          <svg
+            viewBox="0 0 24 24"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+            style="
+              pointer-events: none;
+              display: block;
+              width: 100%;
+              height: 100%;
+            "
+          >
+            <g>
+              <path
+                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <nav class="nav-bar">
+        <a href="products-page.html" class="nav-link">Men's Outerwear</a
+        ><a href="products-page.html" class="nav-link">Ladies Outerwear</a
+        ><a href="products-page.html" class="nav-link">Men's T-Shirts</a
+        ><a href="products-page.html" class="nav-link">Ladies T-Shirts</a>
+      </nav>
+    </div>
+    <div>
+      <div class="checkout">
+        <h2>Checkout</h2>
+        <p class="text-light">
+          Shop is a demo app - form data will not be snet
+        </p>
+      </div>
+      <form action="">
+        <div>
+          <h2>Account Information</h2>
+          <input type="text" id="email" placeholder="" />
+          <label class="placeholder" for="email">Email</label>
+          <input type="text" placeholder="" id="phone" />
+          <label class="placeholder" for="phone">Phone Number</label>
+        </div>
+        <div>
+          <h2>Shipping Address</h2>
+          <input type="text" placeholder="" id="address" />
+          <label class="placeholder" for="address">Address</label>
+          <input type="text" placeholder="" id="city" />
+          <label class="placeholder" for="city">City</label>
+          <div class="state-zip">
+            <div>
+              <input type="text" placeholder="" id="state" />
+              <label class="placeholder" for="state">State/Province</label>
+            </div>
+            <div>
+              <input type="text" placeholder="" id="zip" />
+              <label class="placeholder" for="zip">Zip/Postal Code</label>
+            </div>
+          </div>
+
+          <label for="country">Country</label>
+          <select name="country" class="country-select" id="country">
+            <option value="US">United States</option>
+            <option value="IND">India</option>
+          </select>
+        </div>
+        <div>
+          <h2>Billing Address</h2>
+          <div class="billing">
+            <input id="billing" type="checkbox" />
+            <label for="billing">Use different billing address</label>
+          </div>
+        </div>
+        <div>
+          <h2>Payament Method</h2>
+          <input type="text" placeholder="" id="card-holder" />
+          <label class="placeholder" for="card-holder">Cardholder Name</label>
+          <input type="number" placeholder="" id="card-number" />
+          <label class="placeholder" for="card-number">Card Number</label>
+          <div class="card-expiry">
+            <p>Expiry</p>
+            <div class="expiry-date">
+              <select name="month" id="">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+              </select>
+              <select name="Year" id="">
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+              </select>
+              <input type="number" placeholder="CCV" />
+            </div>
+          </div>
+          <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="order-item">
+              <p>Eco-Jersey Chrome Zip Up Hoodie</p>
+              <p>$37.75</p>
+            </div>
+            <div class="order-item">
+              <p>Android Nylon Packable Jacket</p>
+              <p>$33.60</p>
+            </div>
+            <div class="order-item">
+              <p>Recycled Plastic Bottle Hoodie - Green</p>
+              <p>$121.90</p>
+            </div>
+            <div class="order-item order-total">
+              <p>Total</p>
+              <p>$193.25</p>
+            </div>
+            <a class="link-btn fix-btn">PLACE ORDER</a>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Polymer Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="/products-page.html" class="nav-link">Men's Outerwear</a
+        ><a href="" class="nav-link">Ladies Outerwear</a
+        ><a href="" class="nav-link">Men's T-Shirts</a
+        ><a href="" class="nav-link">Ladies T-Shirts</a>
+      </div>
+
+      <div class="header">
+        <div class="menu-icon" onclick="openNav()">
+          <svg
+            viewBox="0 0 24 24"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+            style="
+              pointer-events: none;
+              display: block;
+              width: 100%;
+              height: 100%;
+            "
+          >
+            <g>
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+            </g>
+          </svg>
+        </div>
+
+        <p class="title"><a href="index.html" class="neutral">SHOP</a></p>
+        <div class="cart-icon-container">
+          <svg
+            viewBox="0 0 24 24"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+            style="
+              pointer-events: none;
+              display: block;
+              width: 100%;
+              height: 100%;
+            "
+          >
+            <g>
+              <path
+                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <nav class="nav-bar">
+        <a href="products-page.html" class="nav-link">Men's Outerwear</a
+        ><a href="products-page.html" class="nav-link">Ladies Outerwear</a
+        ><a href="products-page.html" class="nav-link">Men's T-Shirts</a
+        ><a href="products-page.html" class="nav-link">Ladies T-Shirts</a>
+      </nav>
+      <div class="cart">
+        <h2 class="section-heading">Your Cart</h2>
+        <p class="text-light">(3 items)</p>
+        <div class="cart-container">
+          <div class="cart-item">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14154B.jpg"
+              alt=""
+            />
+            <div class="cart-prod-details">
+              <div class="cart-prod-name">
+                <a>Anvil L/S Crew Neck - Grey</a>
+              </div>
+              <div class="details">
+                <div>
+                  <label for="qty">Qty:</label>
+                  <select name="" id="qty">
+                    <option value="1">1</option>
+                    <option value="1">2</option>
+                    <option value="1">3</option>
+                    <option value="1">4</option>
+                  </select>
+                </div>
+                <p>Size: M</p>
+                <p>$22.01</p>
+              </div>
+              <p class="cross-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  style="
+                    pointer-events: none;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                  "
+                >
+                  <g>
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                    ></path>
+                  </g>
+                </svg>
+              </p>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-14159A.jpg"
+              alt=""
+            />
+            <div class="cart-prod-details">
+              <div class="cart-prod-name">
+                <a>Eco-Jersey Chrome Zip Up Hoodie </a>
+              </div>
+              <div class="details">
+                <div>
+                  <label for="qty">Qty:</label>
+                  <select name="" id="qty">
+                    <option value="1">1</option>
+                    <option value="1">2</option>
+                    <option value="1">3</option>
+                    <option value="1">4</option>
+                  </select>
+                </div>
+                <p>Size: S</p>
+                <p>$19.01</p>
+              </div>
+              <p class="cross-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  style="
+                    pointer-events: none;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                  "
+                >
+                  <g>
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                    ></path>
+                  </g>
+                </svg>
+              </p>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img
+              src="https://shop.polymer-project.org/esm-bundled/data/images/10-15041A.jpg"
+              alt=""
+            />
+            <div class="cart-prod-details">
+              <div class="cart-prod-name">
+                <a>Android Nylon Packable Jacket </a>
+              </div>
+              <div class="details">
+                <div>
+                  <label for="qty">Qty:</label>
+                  <select name="" id="qty">
+                    <option value="1">1</option>
+                    <option value="1">2</option>
+                    <option value="1">3</option>
+                    <option value="1">4</option>
+                  </select>
+                </div>
+                <p>Size: L</p>
+                <p>$28.01</p>
+              </div>
+              <p class="cross-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  style="
+                    pointer-events: none;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                  "
+                >
+                  <g>
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                    ></path>
+                  </g>
+                </svg>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="total-price">
+          <p class="">Total : $193</p>
+          <a class="link-btn fix-btn">CHECKOUT</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

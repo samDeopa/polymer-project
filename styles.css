@@ -461,6 +461,7 @@ form h2 {
   width: 100%;
   font-size: 18px;
   font-weight: 400;
+  background: transparent;
   border: 0;
   margin: 15px 0;
   border-bottom: 1px solid #cccccc;

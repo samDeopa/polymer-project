@@ -250,7 +250,7 @@ h2 {
   border: none;
   padding: 16px 70px;
   padding-right: 24px;
-
+  background: transparent;
   width: 100%;
 }
 .shop-select {
@@ -368,6 +368,7 @@ ul {
   width: 100%;
 }
 .details select {
+  background: transparent;
   border: 0;
 }
 .cart-prod-name a {
@@ -480,6 +481,7 @@ form h2 {
   width: 33%;
   border: 0;
   border-bottom: 1px solid #cccccc;
+  background-color: transparent;
   padding: 9px 0;
   margin: 13px 0;
 }
@@ -510,6 +512,8 @@ form h2 {
   height: 14px;
   border: 2px;
   accent-color: black;
+  background: transparent;
+  background-color: wheat;
 }
 .placeholder {
   display: block;

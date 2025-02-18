@@ -543,17 +543,20 @@ form h2 {
 }
 .placeholder {
   display: block;
+  height: 19px;
   pointer-events: none;
   opacity: 0.5;
   text-overflow: ellipsis;
   overflow: hidden;
-  transition-duration: 0.15s;
+  transition-duration: 0.1s;
   transform: translate3d(0px, -40px, 0px);
 }
+
 input:focus + .placeholder {
   color: black;
+  height: 19px;
   font-size: 12px;
-  transform: translate3d(0px, -70px, 0px);
+  transform: translate3d(0px, -70px, 0);
 }
 @media screen and (min-width: 768px) {
   form {
